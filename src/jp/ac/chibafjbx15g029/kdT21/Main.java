@@ -10,6 +10,7 @@ public class Main {
 		Scanner sin = new Scanner(System.in);
 		int s1 = sin.nextInt();
 		int s2 = sin.nextInt();
+		int s3 = sin.nextInt();
 		sin.close();
 		
 		int hanko = 100;
@@ -20,8 +21,10 @@ public class Main {
 		
 		int shokei = handai + huradai;
 		
-		double zei = Math.floor((shokei * 0.08*100.00)/100.000);
+		double zei = Math.floor((shokei * 0.08));
 		double gokei = shokei + zei;
+		
+		
 		
 	
 		System.out.println("ハンバーガーの個数 ->"+s1);
@@ -31,16 +34,13 @@ public class Main {
 		System.out.println("フライドポテトの代金 = "+huradai+"円");
 		System.out.println("小計 = "+shokei+"円");
 		System.out.println("");
-		System.out.println("消費税 = "+zei+"円");
-		System.out.println("合計金額 = "+gokei+"円");
+		System.out.println("消費税 = "+(int)zei+"円");
+		System.out.println("合計金額 = "+(int)gokei+"円");
 		//System.out.println("");
-		Scanner sin2 = new Scanner(System.in);
-		double s3 =sin2.nextInt();
-		sin2.close();
 		
 	    double turi = s3 - gokei;
 		System.out.println("受取金額 -->"+s3);
-		System.out.println("つり銭 = "+turi+"円");
+		System.out.println("つり銭 = "+(int)turi+"円");
 		
 		
 	}
