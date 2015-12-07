@@ -11,10 +11,11 @@ public class Main {
 		
 		
 			
-		for(int i = 0;i<m;i++){
-			b[i] = a[a.length-i-1];
-		}
+	
+			
+		
 		for(int i =0;i<m;i++){
+			b[i] = a[a.length-i-1];
 		System.out.println("b["+i+"] = "+b[i]);
 		
 		}
