@@ -1,4 +1,4 @@
-package jp.ac.chibafjbx15g029.kd125;
+package jp.ac.chibafjb.x15g029.kd125;
 
 public class Main {
 
