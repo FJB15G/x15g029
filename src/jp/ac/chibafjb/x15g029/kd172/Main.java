@@ -13,7 +13,18 @@ public class Main {
 		int z [];
 		z = new int[m+n];
 		
+		for(int i =0;i<m;i++){
+			z[i] = x[i];
+		}
+		for(int i =0;i<n;i++){
+			z[m+i] = y[i];
+		}
 		
+		 System.out.print("{");
+		for(int i =0;i<m+n;i++){
+			System.out.print(z[i]+",");
+		}
+		 System.out.print("}");
 		
 	}
 }
