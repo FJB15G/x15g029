@@ -8,7 +8,7 @@ public class ArrayProc{
 			for(int i=0;i<=nagasa;i++){//配列更新
 				if(num[i]>m){
 					m=num[i];//最大値更新
-					i++;
+					//i++;
 				}
 				i++;
 				//break;
