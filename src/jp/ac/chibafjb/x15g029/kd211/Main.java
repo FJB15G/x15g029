@@ -11,7 +11,7 @@ public class Main {
 	    int a = num.length; //長さ
 	
 	  
-	  System.out.println(ArrayProc.maxFind1(num,a));//メソッド呼び出し
+	  System.out.println("配列num[]の最大値は、"+ArrayProc.maxFind1(num,a)+"です。");//メソッド呼び出し
 	  System.out.println(ArrayProc.maxFind2(num,a));
 	  
  }
